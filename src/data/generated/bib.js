@@ -11,20 +11,6 @@
         "volume": "8",
         "year": "2020"
     },
-    "DU2022Ontology": {
-        "abstract": "Majority of customers and manufacturers who tend to purchase and trade via e-commerce websites primarily rely on reviews before making purchasing decisions and product improvements. Deceptive reviewers consider this opportunity to write fake reviews to mislead customers and manufacturers. This calls for the necessity of identifying fake reviews before making them available for decision making. Accordingly, this research focuses on a fake review detection method that incorporates review-related features including linguistic features, Part-of-Speech (POS) features, and sentiment analysis features. A domain feature ontology is used in the feature-level sentiment analysis and all the review-related features are extracted and integrated into the ontology. The fake review detection is enhanced through a rule-based classifier by inferencing the ontology. Due to the lack of a labeled dataset for model training, the Mahalanobis distance method was used to detect outliers from an unlabeled dataset where the outliers were selected as fake reviews for model training. The performance measures of the rule-based classifier were improved by integrating linguistic features, POS features, and sentiment analysis features, in spite of considering them separately.",
-        "author": "D.U. Vidanagama and A.T.P. Silva and A.S. Karunananda",
-        "doi": "https://doi.org/10.1016/j.eswa.2022.117869",
-        "issn": "0957-4174",
-        "journal": "Expert Systems with Applications",
-        "keywords": "Domain ontology, type: Rule-based classifier, Outliers, Feature-level sentiment analysis, Review-related features",
-        "pages": "117869",
-        "title": "Ontology based sentiment analysis for fake review detection",
-        "type": "ARTICLE",
-        "url": "https://www.sciencedirect.com/science/article/pii/S095741742201123X",
-        "volume": "206",
-        "year": "2022"
-    },
     "Fang2025Enhanced": {
         "abstract": "Multimodal recommendation systems aim to capture diverse user preferences through data such as text and images, offering more personalized recommendation services. Accurately grasping user preferences can enhance the precision of recommendations and augment the user experience. Existing multimodal graph learning models enhance item representations by capturing the latent attribute relationships between items. However, multimodal features often suffer from modality missing issues, which hinder the model's ability to fully capture the connections between item attributes. Meanwhile, review data, as a form of textual information, not only provide descriptions of item attributes but also directly reflect user preferences. However, directly incorporating review data into item representations may introduce additional noise, potentially affecting the model's performance. Therefore, we propose the Personalized Multi-Preference Recommender (PMPR) model, which integrates reviews with multimodal data to extract multifaceted user preferences, enhancing the personalization of recommendations. Specifically, we designed a heterogeneous graph learning module based on reviews and a homogeneous graph learning module that combines the review features with multimodal features to capture users' diverse preferences. Considering the varying informational content of reviews, PMPR processes each review individually and utilizes user IDs to generate review attention vectors for aggregating the review features to reduce review noise. Finally, we integrate the Top-K method for recommendation. We compare common review processing methods with PMPR's approach to validate its effectiveness. In comparative analyses across five publicly available datasets, our enhanced model consistently demonstrated superior performance when benchmarked against seven widely recognized models. The results indicate a noteworthy improvement over the current state-of-the-art (SOTA) model, ranging from 2.76\\% to 22.52\\% in terms of average performance.",
         "author": "Fang, Hong and Liang, Jindong and Sha, Leiyuxin",
@@ -107,6 +93,20 @@
         "type": "ARTICLE",
         "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2022/1164125",
         "volume": "2022",
+        "year": "2022"
+    },
+    "Vidanagama2022Ontology": {
+        "abstract": "Majority of customers and manufacturers who tend to purchase and trade via e-commerce websites primarily rely on reviews before making purchasing decisions and product improvements. Deceptive reviewers consider this opportunity to write fake reviews to mislead customers and manufacturers. This calls for the necessity of identifying fake reviews before making them available for decision making. Accordingly, this research focuses on a fake review detection method that incorporates review-related features including linguistic features, Part-of-Speech (POS) features, and sentiment analysis features. A domain feature ontology is used in the feature-level sentiment analysis and all the review-related features are extracted and integrated into the ontology. The fake review detection is enhanced through a rule-based classifier by inferencing the ontology. Due to the lack of a labeled dataset for model training, the Mahalanobis distance method was used to detect outliers from an unlabeled dataset where the outliers were selected as fake reviews for model training. The performance measures of the rule-based classifier were improved by integrating linguistic features, POS features, and sentiment analysis features, in spite of considering them separately.",
+        "author": "D.U. Vidanagama and A.T.P. Silva and A.S. Karunananda",
+        "doi": "https://doi.org/10.1016/j.eswa.2022.117869",
+        "issn": "0957-4174",
+        "journal": "Expert Systems with Applications",
+        "keywords": "Domain ontology, type: Rule-based classifier, Outliers, Feature-level sentiment analysis, Review-related features",
+        "pages": "117869",
+        "title": "Ontology based sentiment analysis for fake review detection",
+        "type": "ARTICLE",
+        "url": "https://www.sciencedirect.com/science/article/pii/S095741742201123X",
+        "volume": "206",
         "year": "2022"
     },
     "Wangwatcharakul2020Dynamic": {
