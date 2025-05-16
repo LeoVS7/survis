@@ -1,28 +1,186 @@
-@article{Beck2016Visual,
-  abstract = {Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.},
-  author = {Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel},
-  doi = {10.1109/TVCG.2015.2467757},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  keywords = {type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser},
-  number = {01},
-  publisher = {IEEE},
-  volume = {22},
-  series = {TVCG},
-  title = {Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}},
-  url = {http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf},
-  year = {2016}
+@INPROCEEDINGS{Zhang2020GCN,
+  author = {Zhang, Shijie and Yin, Hongzhi and Chen, Tong and Hung, Quoc Viet Nguyen and Huang, Zi and Cui, Lizhen},
+  title = {GCN-Based User Representation Learning for Unifying Robust Recommendation and Fraudster Detection},
+  year = {2020},
+  isbn = {9781450380164},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  doi = {https://doi.org/10.1145/3397271.3401165},
+  abstract = {In recent years, recommender system has become an indispensable function in all e-commerce platforms. The review rating data for a recommender system typically comes from open platforms, which may attract a group of malicious users to deliberately insert fake feedback in an attempt to bias the recommender system to their favour. The presence of such attacks may violate modeling assumptions that high-quality data is always available and these data truly reflect users' interests and preferences. Therefore, it is of great practical significance to construct a robust recommender system that is able to generate stable recommendations even in the presence of shilling attacks. In this paper, we propose GraphRfi - a GCN-based user representation learning framework to perform robust recommendation and fraudster detection in a unified way. In its end-to-end learning process, the probability of a user being identified as a fraudster in the fraudster detection component automatically determines the contribution of this user's rating data in the recommendation component; while the prediction error outputted in the recommendation component acts as an important feature in the fraudster detection component. Thus, these two components can mutually enhance each other. Extensive experiments have been conducted and the experimental results show the superiority of our GraphRfi in the two tasks - robust rating prediction and fraudster detection. Furthermore, the proposed GraphRfi is validated to be more robust to the various types of shilling attacks over the state-of-the-art recommender systems.},
+  booktitle = {Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {689–698},
+  numpages = {10},
+  keywords = {type: deep learning, network embedding, robust recommender system, shilling attack detection},
+  location = {Virtual Event, China},
+  series = {SIGIR '20}
+}
+@ARTICLE{Qu2022Detecting,
+author = {Qu, Zheng and Jia, Qingyao and Lyu, Chen and Liu, Jia and Liu, Xiaoying and Zheng, Kechen},
+title = {Detecting Fake Reviews with Generative Adversarial Networks for Mobile Social Networks},
+journal = {Security and Communication Networks},
+volume = {2022},
+number = {1},
+pages = {1164125},
+keywords = {type: Sybil attack, generative adversarial networks, mobile social networks, fake review detection},
+doi = {https://doi.org/10.1155/2022/1164125},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1155/2022/1164125},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1155/2022/1164125},
+abstract = {With the growth of mobile social networks (MSNs), crowdsourced information could be used for recommendation to mobile users. However, it is quite vulnerable to Sybil attacks, where attackers post fake information or reviews to mislead users for business benefits. To address this problem, existing detection models mainly use graph-based techniques or extract features of users. However, these approaches either rely on strong assumptions or lack generalization. Therefore, we propose a novel Sybil detection model based on generative adversarial networks (GANs), which contains a feature extractor, a domain classifier, and a Sybil detector. First, the feature extractor is proposed to identify the rich information in the review text with the neural network model of TextCNN. Second, the domain classifier is implemented by a neural network discriminator and is able to extract common features. Third, the Sybil detector is utilized to discriminate the fake review. Finally, the minimax game between the domain classifier and Sybil detector forms a GAN and enhances the overall generalization ability of the model. Extensive experiments show that our model has a high detection accuracy against Sybil attacks.},
+year = {2022}
+}
+@ARTICLE{Wangwatcharakul2020Dynamic,
+  author={Wangwatcharakul, Charinya and Wongthanavasu, Sartra},
+  journal={IEEE Access}, 
+  title={Dynamic Collaborative Filtering Based on User Preference Drift and Topic Evolution}, 
+  year={2020},
+  volume={8},
+  pages={86433-86447},
+  abstract={Recommender systems are efficient tools for online applications; these systems exploit historical user ratings on items to make recommendations of items to users. This paper aims to enhance dynamic collaborative filtering on recommender systems under volatile conditions in which both users' preferences and item properties dynamically change over time. Moreover, existing collaborative filtering models mainly rely on solving data sparsity by adding side information to improve performance. We propose a model to capture the user preference dynamics in the rating matrix by using a joint decomposition method to extract user latent transition patterns and combine latent factors together with the associated topic evolution of review texts by using topic modeling based on the dynamic environment. We evaluate the accuracy on real datasets, and the experimental results show that the model leads to a significant improvement compared with the state-of-the-art dynamic CF models.},
+  keywords={Collaboration;Data models;Predictive models;Recommender systems;Correlation;Probabilistic logic;Matrix decomposition;Recommender systems;user preference drift;topic evolution;type: dynamic collaborative filtering;data sparsity},
+  doi={https://doi.org/10.1109/ACCESS.2020.2993289}}
+@ARTICLE{Omidvar2023Tackling,
+  title = {Tackling cold-start with deep personalized transfer of user
+              preferences for cross-domain recommendation},
+  author = {Omidvar, Sepehr and Tran, Thomas},
+  abstract = {The recommendation system plays an integral role in our daily
+              lives, from movies to medical treatment. However, designing an
+              efficient recommendation system is a complex task that requires
+              significant effort. One of the significant challenges faced by
+              such systems is the cold-start issue. Despite the increasing
+              interest in recommender systems from both academia and industry
+              and the extensive research to improve their performance, they
+              still struggle to provide satisfactory recommendations for new
+              users, i.e., cold-start users, with no historical interactions.
+              The cross-domain recommendation is a promising approach to
+              address the cold-start problem by transferring knowledge from an
+              informative source domain to the target domain. Personalized
+              bridge functions, which transfer knowledge from one domain to
+              another, are more effective than using a common bridge in such
+              situations. Our paper proposes a model, Deep Personalized
+              Transfer of User Preferences for Cross-Domain Recommendations
+              (DPTUPCDR), which utilizes Transfer Learning and Deep Neural
+              Networks to enhance accuracy and address the cold-start
+              challenge. Our model outperforms the state-of-the-art model based
+              on two measures for evaluating prediction quality, demonstrating
+              its effectiveness. The code has been available at
+              https://github.com/SepehrOmidvar/DPTUPCDR.},
+  journal = {International Journal of Data Science and Analytics},
+  keywords= {type: cold start, cross-domain recommendation, transfer learning,
+              deep learning, user preference},
+  year = {2023},
+  doi = {https://doi.org/10.1007/s41060-023-00467-9}
 }
 
-@inproceedings{Ahlers2014Replicable,
-  abstract = {Monitoring a computer network's security state is a di cult task as network components rarely share their information. The IF-MAP speci fication de fines a client/server-based protocol that enables network components to share security information among each other, which is represented in a graph structure. Visualization of this data is challenging due to the highly dynamic topology and the mapping of logical nodes onto physical devices. Furthermore, data in a MAP server is volatile and there is no standardized way to preserve and review changes or previous states of a MAP graph. The evolution of such a graph, however, embodies valuable information for the analysis of past incidents and attacks on the network infrastructure. In this paper we introduce a software framework to visualize MAP data and propose a solution for the effi cient long-term storage and replication of MAP graphs. We demonstrate how changes in the graph structure between given points in time can be computed and visualized.},
-  author = {Ahlers, Volker and Heine, Felix and Hellmann, Bastian and Kleiner, Carsten and Renners, Leonard and Rossow, Thomas and Steuerwald, Ralf},
-  booktitle = {Joint Proceedings of the Fourth International Workshop on Euler Diagrams and the First International Workshop on Graph Visualization in Practice},
-  keywords = {type:application, application:infrastructure, paradigm:node-link, time:animation, graph_difference, evaluation:none},
-  pages = {32--41},
-  publisher = {CEUR-WS.org},
-  references = {Federico2011Visual Dutot2007GraphStream},
-  series = {GraphViP},
-  title = {Replicable Security Monitoring: Visualizing Time-Variant Graphs of Network Metadata},
-  url = {http://ceur-ws.org/Vol-1244/GViP-paper1.pdf},
-  year = {2014}
+
+@ARTICLE{Hu2020Reviewer,
+  author={Hu, Shigang and Kumar, Akshi and Al-Turjman, Fadi and Gupta, Shivam and Seth, Simran and Shubham},
+  journal={IEEE Access}, 
+  title={Reviewer Credibility and Sentiment Analysis Based User Profile Modelling for Online Product Recommendation}, 
+  year={2020},
+  volume={8},
+  abstract={Deciphering user purchase preferences, their likes and dislikes is a very tricky task even for humans, making its automation a very complex job. This research work augments heuristic-driven user interest profiling with reviewer credibility analysis and fine-grained feature sentiment analysis to devise a robust recommendation methodology. The proposed credibility, interest and sentiment enhanced recommendation (CISER) model has five modules namely candidate feature extraction, reviewer credibility analysis, user interest mining, candidate feature sentiment assignment and recommendation module. Review corpus is given as an input to the CISER model. Candidate feature extraction module uses context and sentiment confidence to extract features of importance. To make our model robust to fake and unworthy reviews and reviewers, reviewer credibility analysis proffers an approach of associating expertise, trust and influence scores with reviewers to weigh their opinion according to their credibility. The user interest mining module uses aesthetics of review writing as heuristics for interest-pattern mining. The candidate feature sentiment assignment module scores candidate features present in review based on their fastText sentiment polarity. Finally, the recommendation module uses credibility weighted sentiment scoring of user preferred features for purchase recommendations. The proposed recommendation methodology harnesses not only numeric ratings, but also sentiment expressions associated with features, customer preference profile and reviewer credibility for quantitative analysis of various alternative products. The mean average precision (MAP@1) for CISER is 93% and MAP@3 is 49%, which is better than current state-of-the-art systems.},
+  pages={26172-26189},
+  keywords={Analytical models;type: Sentiment analysis;Feature extraction;Recommender systems;Numerical models;Writing;Big Data;Recommendation system;sentiment analysis;user credibility;user interest},
+  doi={10.1109/ACCESS.2020.2971087}}
+@ARTICLE{Al2020Unsupervised,
+  author={Al-Ghuribi, Sumaia Mohammed and Mohd Noah, Shahrul Azman and Tiun, Sabrina},
+  journal={IEEE Access}, 
+  title={Unsupervised Semantic Approach of Aspect-Based Sentiment Analysis for Large-Scale User Reviews}, 
+  year={2020},
+  volume={8},
+  abstract={Aspect-based sentiment analysis (ABSA) has recently attracted increasing attention due to its extensive applications. Most of the existing ABSA methods been applied on small-sized labeled datasets. However, real datasets such as the Amazon and TripAdvisor contain a massive number of reviews. Thus, applying these methods on large-scale datasets may produce inefficient results. Furthermore, these existing methods extract huge number of aspects, most of which are not relevant to the domain of interest. But, on other hand, some of the infrequent relevant aspects are excluded during the extraction process. These limitations negatively affect the performance of the ABSA process. This article, therefore, aims to overcome such limitations by proposing an efficient approach that is suitable for real large-scale unlabeled datasets. The proposed approach is a combination of hybridizing a frequency-based approach (word level) and a syntactic-relation based approach (sentence level). It was enhanced further with a semantic similarity-based approach to extract aspects that are relevant to the domain, even terms (related to the aspects) are not frequently mentioned in the reviews. The extracted aspects according to the proposed approach are used to generate a total review sentiment score after estimating the weight and the rating of each extracted aspect mentioned in the review. The assignment of the weight of each extracted aspect is calculated based on a modified TF-IDF weighting scheme and the assignment of the aspect rating is calculated based on a domain-specific lexicon. Effectiveness of the extracted aspects is evaluated against two baselines available from existing literature: fixed aspect and extracted aspects. Evaluation was also performed by using a general lexicon and a domain-specific lexicon. Results in terms of F-measure and accuracy on Amazon and Yelp datasets show that the extracted aspects using the proposed approach with the domain-specific lexicon outperformed all the baselines.},
+  pages={218592-218613},
+  keywords={Task analysis;type: Sentiment analysis;Data mining;Syntactics;Semantics;Feature extraction;Ontologies;Aspect;core terms;aspect extraction;aspect weight;aspect rating;domain-specific lexicon;total review score;real large-scale dataset},
+  doi={10.1109/ACCESS.2020.3042312}}
+@ARTICLE{DU2022Ontology,
+  title = {Ontology based sentiment analysis for fake review detection},
+  journal = {Expert Systems with Applications},
+  volume = {206},
+  pages = {117869},
+  year = {2022},
+  issn = {0957-4174},
+  doi = {https://doi.org/10.1016/j.eswa.2022.117869},
+  url = {https://www.sciencedirect.com/science/article/pii/S095741742201123X},
+  author = {D.U. Vidanagama and A.T.P. Silva and A.S. Karunananda},
+  keywords = {Domain ontology, type: Rule-based classifier, Outliers, Feature-level sentiment analysis, Review-related features},
+  abstract = {Majority of customers and manufacturers who tend to purchase and trade via e-commerce websites primarily rely on reviews before making purchasing decisions and product improvements. Deceptive reviewers consider this opportunity to write fake reviews to mislead customers and manufacturers. This calls for the necessity of identifying fake reviews before making them available for decision making. Accordingly, this research focuses on a fake review detection method that incorporates review-related features including linguistic features, Part-of-Speech (POS) features, and sentiment analysis features. A domain feature ontology is used in the feature-level sentiment analysis and all the review-related features are extracted and integrated into the ontology. The fake review detection is enhanced through a rule-based classifier by inferencing the ontology. Due to the lack of a labeled dataset for model training, the Mahalanobis distance method was used to detect outliers from an unlabeled dataset where the outliers were selected as fake reviews for model training. The performance measures of the rule-based classifier were improved by integrating linguistic features, POS features, and sentiment analysis features, in spite of considering them separately.}
+}
+
+
+@ARTICLE{Fang2025Enhanced,
+  title = {Enhanced multimodal recommendation systems through reviews
+              integration},
+  author = {Fang, Hong and Liang, Jindong and Sha, Leiyuxin},
+  abstract = {Multimodal recommendation systems aim to capture diverse user
+              preferences through data such as text and images, offering more
+              personalized recommendation services. Accurately grasping user
+              preferences can enhance the precision of recommendations and
+              augment the user experience. Existing multimodal graph learning
+              models enhance item representations by capturing the latent
+              attribute relationships between items. However, multimodal
+              features often suffer from modality missing issues, which hinder
+              the model's ability to fully capture the connections between item
+              attributes. Meanwhile, review data, as a form of textual
+              information, not only provide descriptions of item attributes but
+              also directly reflect user preferences. However, directly
+              incorporating review data into item representations may introduce
+              additional noise, potentially affecting the model's performance.
+              Therefore, we propose the Personalized Multi-Preference
+              Recommender (PMPR) model, which integrates reviews with
+              multimodal data to extract multifaceted user preferences,
+              enhancing the personalization of recommendations. Specifically,
+              we designed a heterogeneous graph learning module based on
+              reviews and a homogeneous graph learning module that combines the
+              review features with multimodal features to capture users'
+              diverse preferences. Considering the varying informational
+              content of reviews, PMPR processes each review individually and
+              utilizes user IDs to generate review attention vectors for
+              aggregating the review features to reduce review noise. Finally,
+              we integrate the Top-K method for recommendation. We compare
+              common review processing methods with PMPR's approach to validate
+              its effectiveness. In comparative analyses across five publicly
+              available datasets, our enhanced model consistently demonstrated
+              superior performance when benchmarked against seven widely
+              recognized models. The results indicate a noteworthy improvement
+              over the current state-of-the-art (SOTA) model, ranging from
+              2.76\% to 22.52\% in terms of average performance.},
+  journal = {Knowledge and Information Systems},
+  keywords = {type: multimodal recommendation, heterogeneous graph learning, review attention vector, user preference},
+  volume = {67},
+  number = {4},
+  pages = {3459--3486},
+  month = {apr},
+  year = {2025}
+}
+@ARTICLE{Jeong2024Multimodal,
+  AUTHOR = {Jeong, Euiju and Li, Xinzhe and Kwon, Angela (Eunyoung) and Park, Seonu and Li, Qinglong and Kim, Jaekyeong},
+  TITLE = {A Multimodal Recommender System Using Deep Learning Techniques Combining Review Texts and Images},
+  JOURNAL = {Applied Sciences},
+  VOLUME = {14},
+  YEAR = {2024},
+  NUMBER = {20},
+  ARTICLE-NUMBER = {9206},
+  URL = {https://www.mdpi.com/2076-3417/14/20/9206},
+  ISSN = {2076-3417},
+  keywords = {type: multimodal recommender system; review text; review image; co-attention mechanism; deep learning},
+  ABSTRACT = {Online reviews that consist of texts and images are an essential source of information for alleviating data sparsity in recommender system studies. Although texts and images provide different types of information, they can provide complementary or substitutive advantages. However, most studies are limited in introducing the complementary effect between texts and images in the recommender systems. Specifically, they have overlooked the informational value of images and proposed recommender systems solely based on textual representations. To address this research gap, this study proposes a novel recommender model that captures the dependence between texts and images. This study uses the RoBERTa and VGG-16 models to extract textual and visual information from online reviews and applies a co-attention mechanism to capture the complementarity between the two modalities. Extensive experiments were conducted using Amazon datasets, confirming the superiority of the proposed model. Our findings suggest that the complementarity of texts and images is crucial for enhancing recommendation accuracy and performance.},
+  DOI = {10.3390/app14209206}
+}
+@ARTICLE{Malitesta2025Formalizing,
+  author = {Malitesta, Daniele and Cornacchia, Giandomenico and Pomo, Claudio and Merra, Felice Antonio and Di Noia, Tommaso and Di Sciascio, Eugenio},
+  title = {Formalizing Multimedia Recommendation through Multimodal Deep Learning},
+  year = {2025},
+  issue_date = {September 2025},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {3},
+  number = {3},
+  url = {https://doi.org/10.1145/3662738},
+  doi = {10.1145/3662738},
+  abstract = {Recommender systems (RSs) provide customers with a personalized navigation experience within the vast catalogs of products and services offered on popular online platforms. Despite the substantial success of traditional RSs, recommendation remains a highly challenging task, especially in specific scenarios and domains. For example, human affinity for items described through multimedia content (e.g., images, audio, and text), such as fashion products, movies, and music, is multi-faceted and primarily driven by their diverse characteristics. Therefore, by leveraging all available signals in such scenarios, multimodality enables us to tap into richer information sources and construct more refined user/item profiles for recommendations. Despite the growing number of multimodal techniques proposed for multimedia recommendation, the existing literature lacks a shared and universal schema for modeling and solving the recommendation problem through the lens of multimodality. Given the recent advances in multimodal deep learning for other tasks and scenarios where precise theoretical and applicative procedures exist, we also consider it imperative to formalize a general multimodal schema for multimedia recommendation. In this work, we first provide a comprehensive literature review of multimodal approaches for multimedia recommendation from the last eight years. Second, we outline the theoretical foundations of a multimodal pipeline for multimedia recommendation by identifying and formally organizing recurring solutions/patterns; at the same time, we demonstrate its rationale by conceptually applying it to selected state-of-the-art approaches in multimedia recommendation. Third, we conduct a benchmarking analysis of recent algorithms for multimedia recommendation within Elliot, a rigorous framework for evaluating recommender systems, where we re-implement such multimedia recommendation approaches. Finally, we highlight the significant unresolved challenges in multimodal deep learning for multimedia recommendation and suggest possible avenues for addressing them. The primary aim of this work is to provide guidelines for designing and implementing the next generation of multimodal approaches in multimedia recommendation.},
+  journal = {ACM Trans. Recomm. Syst.},
+  month = mar,
+  articleno = {37},
+  numpages = {33},
+  keywords = {type: Multimodal deep learning, multimedia recommender systems, benchmarking}
 }
